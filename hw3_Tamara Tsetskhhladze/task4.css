@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    gap:20px;
+}
+body {
+    padding: 0px;
+    margin: 0px
+}
+.green {
+    background-color: #99ce1c;
+    border: 3px solid black;
+    height: 100%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 24%;
+    gap:20px;
+
+}

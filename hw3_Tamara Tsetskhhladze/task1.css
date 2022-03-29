@@ -1,0 +1,57 @@
+body {
+    margin:0;
+}
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.column {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 49%;
+}
+.gallery {
+    width: 50%;
+    background-color: blue;
+
+}
+.column-title-buy {
+    width: 49%;
+}
+.title{
+    height: 20%;
+    background-color: blue;
+}
+.buy-box{
+    background-color: blue;
+    height: 75%;
+}
+.description{
+    background-color: blue;
+    width: 100%;
+    height: 24%;
+
+}
+
+.related{
+    background-color: blue;
+    width: 100%;
+    height: 24%;
+}
+.margin{
+    width: 10%;
+    background-color: blue;
+    margin-top:10px;
+}
